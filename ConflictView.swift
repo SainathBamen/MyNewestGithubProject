@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ConflictView: View {
     var body: some View {
-        Text("Hello I am Conflict View.")
+        Text("Hello I am groot View.")
             .bold()
             .font(.largeTitle)
     }
